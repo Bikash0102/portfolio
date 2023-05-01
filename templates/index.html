@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://kit.fontawesome.com/ff25369e82.js" crossorigin="anonymous"></script>
+
+       
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+       
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/index.css')}}">
+       
+        <title>Bikash portfolio </title>
+
+    </head>
+    <body oncontextmenu="return false">
+        <div class="loader" id="preloader">
+            <div class="matter">
+               <h1 class="section__title">wellcome </h1>
+               
+            </div>
+            <br>
+           <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+           <h1>Loading...</h1>
+        </div>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav_logo uil uil-moon change_theme" id="theme-button">
+                    BIKASH
+                </a>
+                
+        
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav-item">
+                            <a href="#home" style="--i:1;" class="nav_link active_link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" style="--i:2;"class="nav_link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills" style="--i:3;"class="nav_link">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services"style="--i:4;" class="nav_link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" style="--i:5;"class="nav_link">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" style="--i:6;" class="nav_link">Contact Me</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav_close" id="nav-close">
+                        <i class="uil uil-times nav_close" id="nav-close"></i>
+                    </div>
+                </div>
+
+                <div class="nav_btns">
+                    <!--===== THEME CHANGE BUTTON =====-->
+                   
+
+                    <div class="nav_toogle" id="nav-toggle">
+                        <i class="uil uil-bars"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home_container container grid">
+                    <div class="home_img">
+                        <img src="static/images/photo.png" alt="">
+                    </div>
+
+                    <div class="home_data">
+                        <h1 class="home_title">Hello, It's Me</h1>
+                        <h2 class="home_title"> Bikash</h2>
+                        <h3 class="home_subtitle"> And I am good at <span id ="text"></span></h3>
+                        <p class="home_description">
+                          I am a frontend developer and have done many live project based on react ,bootstrap  and tailwind css
+
+                        </p>
+                        <a href="static/resume.pdf"download class="button button--flex" id="buts"  >
+                            DownloadCV<i id ="icon" class="fa-solid fa-download"></i>
+                        </a>
+                         
+                        <div class="home_social">
+                           
+                            
+                                <a href="https://www.linkedin.com/in/bimalendu-bikash-bhowmik-74786821b/" style="--i:7;" target="_blank" class="home_social-icon">
+                                    <i class="uil uil-linkedin-alt"></i>
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=100009194950864"style="--i:8;" target="_blank" class="home_social-icon">
+                                    <i class="fa-brands fa-square-facebook"></i>
+                                <a href="https://github.com/Bikash0102"style="--i:9;" target="_blank" class="home_social-icon">
+                                    <i class="uil uil-github-alt"></i>
+                                </a>
+                                <a href=""style="--i:10;" target="_blank" class="home_social-icon">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            
+                            
+                        </div>
+
+                        
+
+
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+               <h2 class="section__title">My Interest</h2>
+               <span class="section__subtitle">Web Development</span>
+
+               <div  class="about_container container grid"  >
+                <div data-aos="fade-right" >
+                 <img src="static/images/mern.png" alt="" class="about_img" >
+                </div>
+
+                 <div class="about_data"  data-aos="fade-left">
+                    <p class="about_description pg" >
+                        
+                       
+                        MERN stands for MongoDB, Express.js, React, and Node.js, which are a group of technologies used for building web applications.<br>
+
+                        MongoDB is a NoSQL document-oriented database that is used to store application data.<br>
+                        
+                        Express.js is a back-end web framework for Node.js that is used to handle HTTP requests and provide APIs for the application.<br>
+                        
+                        React is a JavaScript library for building user interfaces, allowing developers to create reusable UI components.<br>
+                        
+                        Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine, and is used to execute server-side code.<br>
+                        
+                        By using these technologies together, a full-stack web application can be built, with a front-end built in React and a back-end built with Node.js and Express.js, backed by a MongoDB database. The combination of these technologies is referred to as the MERN stack.
+                    </p>
+                    <p class="about_description  ptag pl">
+                        Machine learning is a subfield of artificial intelligence that deals with the development of algorithms and statistical models that enable computers to learn from and make predictions or take actions based on data inputs. Machine learning algorithms can be trained on large amounts of data to identify patterns and make predictions, or to perform classification or regression tasks. The goal of machine learning is to enable computers to improve their performance at tasks over time, without being explicitly programmed
+
+                    </p>
+                    
+                 </div>
+               </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+              <h2 class="section__title">Skills</h2>
+              <span class="section__subtitle">My technical lever</span>
+
+              <div class="skills_container container grid">
+                <div>
+                    <!--=========== SKILL 1 ============-->
+                    <div class="skills_content skills_open">
+                        <div class="skills_header">
+                            <i class="uil uil-brackets-curly skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills_title">Frontend Development</h1>
+                               
+                            </div>
+
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">HTML</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_html"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">CSS</h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_css"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">JavaScript</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_javascript"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=========== SKILL 2 ============-->
+                    <div class="skills_content skills_open">
+                        <div class="skills_header">
+                            <i class="uil uil-server-network skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills_title">Backend Development</h1>
+                                
+                            </div>
+
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">PHP</h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_php"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Node JS</h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_nodejs"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">MangoDB</h3>
+                                    <span class="skills_number">60%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_mangodb"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">SQL</h3>
+                                    <span class="skills_number">55%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_sql"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <!--=========== SKILL 3 ============-->
+                    <div class="skills_content skills_open">
+                        <div class="skills_header">
+                            <i class="uil uil-server-network skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills_title">Programming</h1>
+                              
+                            </div>
+
+                            <i class="uil uil-angle-down skills_arrow"></i>
+                        </div>
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">C++</h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_c"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Java</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_java"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Python</h3>
+                                    <span class="skills_number">50%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_python"></span>
+                                </div>
+                            </div>
+                           
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+              <h2 class="section__title" data-aos="fade-down">Qualification</h2>
+              <span class="section__subtitle" data-aos="fade-down">My personal journel</span>
+
+              <div class="qualification_container container">
+                <div class="qualification_tabs">
+                    <div class="qualificaction_button button--flex qualification_active" data-aos="fade-up" data-target="#education">
+                      <i class="uil uil-graduation-cap qualification_icon"></i>
+                      Education
+                    </div>
+                    
+                    </div>
+                </div>
+
+                <div class="qualification_sections">
+                    <!--========== QUALIFICATION CONTENT 1 ==========-->
+                    <div class="qualification_content qualification_active" data-content id="education">
+                      <!--============= QUALIFICATION 1 ===========-->  
+                      <div class="qualification_data">
+                        <div class="qualification_record"  data-aos="fade-right">
+                            <h3 class="qualification_title">Bachelor of Technology</h3>
+                            <span class="qualification_subtitle"> computer science<br>GMRIT</span>
+                            <div class="qualificaation_calender">
+                                <i class="uil uil-calender-alt"></i>
+                                2020 - 2024
+                            </div>
+                        </div>
+                        <div  data-aos="fade-up" >
+                            <span class="qualification_rounder"></span> 
+                            <span class="qualification_line"></span>
+                        </div>
+                      </div>
+                      <!--============= QUALIFICATION 2 ===========-->  
+                      <div class="qualification_data">
+                        <div>
+                            
+                        </div>
+
+                        <div  data-aos="fade-up" >
+                            <span class="qualification_rounder"></span>
+                            <span class="qualification_line"></span>
+                        </div>
+
+                        <div class="qualification_record2" data-aos="fade-left">
+                            <h3 class="qualification_title">Higher Secondary</h3>
+                            <span class="qualification_subtitle">Sri chaitanya<br>MPC</span>
+                            <div class="qualificaation_calender">
+                                <i class="uil uil-calender-alt"></i>
+                                2018 - 2020
+                            </div>
+                        </div>
+                        
+                      </div>
+                      <!--============= QUALIFICATION 3 ===========-->  
+                      <div class="qualification_data">
+                        <div class="qualification_record"  data-aos="fade-up" >
+                            <h3 class="qualification_title">Secondary</h3>
+                            <span class="qualification_subtitle">CBSE<br>SGSH</span>
+                            <div class="qualificaation_calender">
+                                <i class="uil uil-calender-alt"></i>
+                                2008- 2018
+                            </div>
+                        </div>
+                        <div  data-aos="fade-up" >
+                            <span class="qualification_rounder"></span>
+                           
+                        </div>
+                      </div>
+                      <!--============= QUALIFICATION 4 ===========-->  
+                      
+                    
+                </div>
+              </div>
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="service">
+              <h2 class="section__title section_head">Service</h2> 
+             
+              
+              <div class="services_container container grid">
+                <!--============== SERVICES 1 =============-->
+                <div class="services_content"  data-aos="fade-right" >
+                    <div>
+                        <i class="uil uil-web-grid services_icon"></i>
+                        <h3 class="services_title">Video <br> Editing</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services_button">
+                        View More
+                        <i class="uil uil-arrow-right button_icon"></i>
+                    </span>
+
+                    <div class="services_modal ">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">Video <br> Editing</h4>
+                            <i class="uil uil-times services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>i am good in makeing vlog</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>Have hand on exprience on adove premiere pro cc</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>I can capture good drone footage</p>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--============== SERVICES 2 =============-->
+                <div class="services_content"  data-aos="fade-up" >
+                    <div>
+                    
+                        <i class="uil uil-web-grid services_icon"></i>
+                        <h3 class="services_title">Frontend <br> Development</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services_button">
+                        View More
+                        <i class="uil uil-arrow-right button_icon"></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">Frontend <br> Development</h4>
+                            <i class="uil uil-times services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>I can develop the user interface</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>Can make a website Responsive</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>I create ux element interactions</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>I position your company brand.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--============== SERVICES 3 =============-->
+                <div class="services_content"  data-aos="fade-down" >
+                    <div>
+                        <i class="uil uil-web-grid services_icon"></i>
+                        <h3 class="services_title">Backend <br> Development</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services_button">
+                        View More
+                        <i class="uil uil-arrow-right button_icon"></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">Backend <br> Development</h4>
+                            <i class="uil uil-times services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>I can create API</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>Maintain your web servers</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>Can deal with nodeJs </p>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--============== SERVICES 4 =============-->
+                <div class="services_content"  data-aos="fade-left" >
+                    <div>
+                        <i class="uil uil-web-grid services_icon"></i>
+                        <h3 class="services_title">Machine <br> Learning</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services_button">
+                        View More
+                        <i class="uil uil-arrow-right button_icon"></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">Machine <br> Learning</h4>
+                            <i class="uil uil-times services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>I can deal with supervise and unsupervise models</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>Can deal Flask Framework</p>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </section>
+
+            <!--==================== PROJECT====================-->
+            <section class="portfolio section" id="portfolio">
+              <h2 class="section__title">Project</h2>  
+              <span class="section__subtitle">Most recent work</span>
+
+              <div class="portfolio_container container swiper-container" >
+                <div class="swiper-wrapper">
+                    <!--============ PORTFOLIO 1 ==============-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="static/images/dog.png"  data-aos="flip-left" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Tindog Website</h3>
+                            <p class="portfolio_description">
+                                A modern and Responsive tinder website for dog
+                            </p>
+                            <a target="_blank" href="https://bikash0102.github.io/tindog.github.io/" class="button button--flex button--small portfolio_button">
+                                Demo 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--============ PORTFOLIO 2 ==============-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="static/images/sopping.png" data-aos="flip-right"  alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Shopping APP</h3>
+                            <p class="portfolio_description">
+                                I have build a modern shopping website using mern stack
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio_button">
+                                Demo 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--============ PORTFOLIO 3 ==============-->
+                    <div class="portfolio_content grid swiper-slide">
+                        <img src="static/images/tweet.png"  data-aos="flip-left"   alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Twitter data classification</h3>
+                            <p class="portfolio_description">
+                               
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio_button">
+                                Demo 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Add Arrow-->
+               
+                <!--Add Pagination-->
+                <div class="swiper-pagination"></div>
+              </div>
+            </section>
+
+           
+           
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+              <h2 class="section__title">Contact Me</h2>
+              <span class="section__subtitle">Get in touch</span>
+
+              <div class="contact_container container grid">
+                <div>
+                    <div class="contact_information">
+                        <i class="uil uil-phone contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Call Me</h3>
+                            <span class="contact_subtitle">953-311-8149</span>
+                        </div>
+                    </div>
+                    <div class="contact_information">
+                        <i class="uil uil-envelope contact_icon"></i>
+
+                        <div>
+                            <a  target="_blank" href="https://mail.google.com/mail/u/0/?pli=1#inbox"><h3 class="contact_title">Email</h3></a>
+                            <span class="contact_subtitle">bimalendubikashbhowmik@gmail.com</span>
+                        </div>
+                    </div> 
+                    <div class="contact_information">
+                        <i class="uil uil-map-marker contact_icon"></i>
+
+                        <div>
+                            <a target="_blank" href="https://goo.gl/maps/S48uY8egJwCT7aGe9"><h3 class="contact_title">Location</h3></a>
+                            <span class="contact_subtitle">vizinagaram Andhra Pradesh</span>
+                        </div>
+                    </div>
+                    <div class="counter">
+
+                        <div class="head"><h3>Total Website Visit<h3></div>
+                        <div class="count">00</div>
+                
+                    </div>
+                </div>
+
+                <form action="{{url_for('sent')}}" method="Post" class="contact_form grid">
+                    <div class="contact_inputs grid">
+                        <div class="contact_content">
+                            <label for="name" class="contact_label">Name</label>
+                            <input name ="name" type="text" class="contact_input">
+                        </div>
+                        <div class="contact_content">
+                            <label for="email" class="contact_label">Email</label>
+                            <input type="email" name="email" class="contact_input">
+                        </div>
+                    </div>
+                    <div class="contact_content">
+                        <label for="phone" class="contact_label">Contact</label>
+                        <input type="tel"id="contact" name="contact" class="contact_input">
+                    </div>
+                    <div class="contact_content">
+                        <label for="subject" class="contact_label">Subject</label>
+                        <textarea name="messages" id="textarea" cols="0" rows="5" class="contact_input"></textarea>
+                    </div>
+                    <div>
+                        <button id ="btn" class="button button--flex">
+                            Send Message 
+                            <i class="uil uil-message button_icon"></i>
+                        </button>
+                    </div>
+                </form>
+              </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+       
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+          <i class="uil uil-arrow-up scrollup_icon"></i>
+        </a>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"> </script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="{{ url_for('static',filename='js/index1.js')}}">></script>
+    </body>
